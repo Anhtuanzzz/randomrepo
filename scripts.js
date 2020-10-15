@@ -1,9 +1,11 @@
 $(document).ready(() => {
-    $('i').click(() => {
-        $('nav').toggle();
+    $('#nav').click(() => {
+        $(this).toggleClass('fa-bars');
+        $(this).toggleClass('fa-times');
+        $('nav').slideToggle();
     }),
     $('button').click(() => {
-        $('.love').toggle();
-        $('.content').toggle();
+        $('.love').fadeToggle();
+        $('.content').fadeToggle();
     })
 })
