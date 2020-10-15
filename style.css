@@ -1,0 +1,77 @@
+body {
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);
+}
+
+nav {
+    display: none;
+}
+
+h3 {
+
+}
+
+.icon {
+    float: right;
+}
+
+header {
+    display: flex;
+}
+
+header span {
+    position: relative;
+}
+
+.love {
+    width: 95%;
+    display: none;
+    position: fixed;
+    background-color: #ebedee;
+    border-radius: 25px;
+}
+
+.content {
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+    padding: 1vh;
+    border-radius: 15px;
+}
+
+input {
+    opacity: 75%;
+    border: none;
+    width: 95%;
+    height: 5vh;
+}
+
+button {
+    color: azure;
+    font-weight: bold;
+    font-size: large;
+    background-image: linear-gradient(to top, #ff9a9e 0%, #fecfef 99%, #fecfef 100%);
+    border: none;
+    border-radius: 15px;
+    padding: 1vh 4vw 1vh 4vw;
+    margin: 3vh;
+}
+
+button:hover {
+    background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
+}
+
+a {
+    text-decoration: none;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    background-color: #ebedee;
+    width: 95%;
+    height: 5vh;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 15px 15px 0 0;
+    font-size: medium;
+}
