@@ -43,6 +43,13 @@ header span {
     border-radius: 15px;
 }
 
+.content p {
+    font-weight: 525;
+    font-size: medium;
+    float: left;
+    padding-left: 10vw;
+}
+
 input {
     opacity: 75%;
     border: none;
